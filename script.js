@@ -1,55 +1,15 @@
 // Data soal kuis
 const quizData = [
-    {
-      question: "Apa ibu kota Indonesia?",
-      options: ["Jakarta", "Bandung", "Surabaya", "Medan"],
-      answer: "Jakarta"
-    },
-    {
-      question: "Siapa presiden pertama Indonesia?",
-      options: ["Soekarno", "Soeharto", "BJ Habibie", "Megawati"],
-      answer: "Soekarno"
-    },
-    {
-      question: "Apa hasil dari 5 + 7?",
-      options: ["10", "11", "12", "13"],
-      answer: "12"
-    },
-    {
-      question: "Benua terbesar di dunia adalah?",
-      options: ["Asia", "Afrika", "Amerika", "Eropa"],
-      answer: "Asia"
-    },
-    {
-      question: "Apa simbol kimia dari air?",
-      options: ["O2", "H2", "H2O", "CO2"],
-      answer: "H2O"
-    },
-    {
-      question: "Siapa penemu bola lampu?",
-      options: ["Albert Einstein", "Isaac Newton", "Thomas Edison", "Nikola Tesla"],
-      answer: "Thomas Edison"
-    },
-    {
-      question: "Negara dengan populasi terbanyak adalah?",
-      options: ["India", "Cina", "AS", "Indonesia"],
-      answer: "Cina"
-    },
-    {
-      question: "Apa nama planet ketiga dari Matahari?",
-      options: ["Mars", "Venus", "Bumi", "Merkurius"],
-      answer: "Bumi"
-    },
-    {
-      question: "Berapa sisi yang dimiliki segi lima?",
-      options: ["3", "4", "5", "6"],
-      answer: "5"
-    },
-    {
-      question: "Apa warna bendera Jepang?",
-      options: ["Merah-Putih", "Merah-Kuning", "Putih-Merah", "Putih dengan lingkaran merah"],
-      answer: "Putih dengan lingkaran merah"
-    }
+    { question: "Apa ibu kota Indonesia?", options: ["Bandung", "Jakarta", "Surabaya", "Medan"], answer: "Jakarta" },
+  { question: "Gunung tertinggi di Indonesia adalah...", options: ["Gunung Merapi", "Gunung semeru", "Gunung Rinjani", "Puncak Jaya"], answer: "Puncak Jaya" },
+  { question: "Siapa presiden pertama Indonesia?", options: ["Soekarno", "Soeharto", "Habibie", "Jokowi"], answer: "Soekarno" },
+  { question: "Apa lambang negara Indonesia?", options: ["Garuda", "Harimau", "Elang", "Rajawali"], answer: "Garuda" },
+  { question: "Bahasa resmi Indonesia adalah?", options: ["Sunda", "Jawa", "Indonesia", "Minang"], answer: "Indonesia" },
+  { question: "Apa warna bendera Indonesia?", options: ["Merah Putih", "Merah Kuning", "Putih Hijau", "Merah Hijau"], answer: "Merah Putih" },
+  { question: "Pulau terbesar di Indonesia adalah?", options: ["Bali", "Sumatera", "Kalimantan", "Sulawesi"], answer: "Kalimantan" },
+  { question: "Planet terbesar di tata surya?", options: ["Bumi", "Jupiter", "Mars", "Venus"], answer: "Jupiter" },
+  { question: "Siapa penemu lampu pijar?", options: ["Newton", "Einstein", "Edison", "Tesla"], answer: "Edison" },
+  { question: "Apa simbol kimia dari air?", options: ["O2", "CO2", "H2O", "HO2"], answer: "H2O" }
   ];
   
   // Ambil elemen dari HTML
