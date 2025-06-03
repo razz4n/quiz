@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Pengetahuan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <body>
+        <div class="quiz-container">
+          <div class="quiz-header">
+            <h1>Kuis Pengetahuan Umum</h1>
+            <p>Jawablah pertanyaan berikut dengan benar!</p>
+          </div>
+          <div id="quiz"></div>
+          <button id="submit">Kirim Jawaban</button>
+          <div id="result"></div>
+        </div>
+    
+    <!-- Modal Hasil -->
+        <div id="resultModal" class="modal">
+            <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2>Hasil Quiz</h2>
+            <p id="modalScore"></p>
+            <button id="backButton">Kembali</button>
+            </div>
+        </div>
+  
+        <script src="script.js"></script>
+      </body>
+      
+</body>
+</html>
